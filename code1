@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+void prevod(char *numbers[], char *value[])
+{
+    for(int idx=0;value[idx]!='\0';idx++)
+    {
+     
+        
+    }
+
+}
+
+
+int main()
+{
+    char *numbers[]={"1","2abc","3def","4ghi","5jkl","6mno","7pqrs","8tuv","9wxzy"};
+    
+    //* make strings for each number with its possible values
+    
+    char *value[100];
+    scanf ("%99s", *value);
+    //* make string and puts the input into the string
+    //* need to do so that value is not a 100 but whatever number of numbers are in input
+    
+    
+    printf("%s\n", value);
+    for(int idx=0;idx<9;idx++)
+    
+    {
+        printf("%s", numbers[idx]);
+    }
+    
+    prevod(numbers, value);
+    
+    
+    
+    return 0;
+}
